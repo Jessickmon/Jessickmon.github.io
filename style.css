@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+*{
+    background: #f8f5f2;
+    box-sizing: border-box;
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.about_me{
+    background-color: white;
+    border: 1px solid black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vw;
+    height: 42vh;
+    margin: -47.7vh 0 0 28.8vw;
+    text-align: center;
+    width: 63vw;
+}
+
+.about_me_information{
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vw;
+    padding: 3vh 0.3vw 0 1vw;
+    text-align: left;
+}
+
+.col{
+    background-color: #f8f5f2;
+    border: 1px solid black;
+    padding: 2vw 2vh; 
+}
+
+.col_2{
+    background-color: white;
+    border: 1px solid black;
+    padding: 2vw 2vh; 
+}
+
+.contact_button{
+    background-color: rgba(7,128,128,1);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.38vw;
+    margin: auto 2.5vw;
+    padding: 0.3em 1.2em;
+}
+
+.contact_button:hover{
+    background-color: rgba(244, 93, 72,0.8);
+    transition: all 0.3s ease 0s;
+}
+
+.grid{
+    background-color: white;
+    column-gap: 4vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45vw, 1fr));
+    justify-content: space-around;
+    padding: 2vh;
+    row-gap: 6vw;
+}
+
+.grid_2{
+    background-color: #f8f5f2;
+    column-gap: 4vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45vw, 1fr));
+    justify-content: space-around;
+    padding: 2vh;
+    row-gap: 6vw;
+}
+
+.menu_bar{
+    display: none;  
+}
+
+.nav_bar{
+    background: #f8f5f2;
+    border-bottom: 1px solid black;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2vw;
+}
+
+.nav_bar a:hover{
+    color:#f45d48;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_bar ul{
+    align-items: center;
+    display: flex;
+    font-size: 1.38vw;
+    flex-wrap: wrap;
+    margin: 2vw;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_bar ul li{
+    padding: 0 2vw;
+}
+
+.nav_bar ul li a{
+    color: darkgray;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_bar ul li a:hover{
+    color: #f45d48;
+}
+
+.phillip_about{
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+}
+
+.phillip_about:before{
+    background-color: #f45d48;
+    border: 2px solid black;
+    content: '';
+    height: 87%;
+    margin: 8vh 0 2vh 8.4vw;
+    position: absolute;
+    width: 60%;
+}
+
+.phillip_image{
+    border: 1px solid black;
+    height: auto;
+    margin: 4vh 0 2vh 11vw;
+    max-width: 100%;
+    position:relative;
+    width: auto\9;
+    z-index: 30;
+}
+
+.phillip_logo{
+    align-items: center;
+    border: none;
+    color: #293c47;
+    font-size: 3vw;
+    margin: -3vh auto auto 12.3vw;
+}
+
+.phillip_logo_text{
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.project_anchor:hover{
+    background-color: #f45d48;
+}
+
+.project_button{
+    background-color:whitesmoke;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 6vh;
+    margin:2vh;
+    transition: all 0.2s ease 0.1s;
+    width: 12vw;
+}
+
+.project_button:hover{
+    background-color: #f45d48;
+}
+
+.project_button_2{
+    background-color:white;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 6vh;
+    margin:2vh;
+    transition: all 0.2s ease 0.1s;
+    width: 12vw;
+}
+
+.project_button_2:hover{
+    background-color: #f45d48;
+}
+
+.project_button_unavailable{
+    background-color:white;
+    border-radius: 15px;
+    height: 6vh;
+    margin:2vh;
+    width: 12vw;
+}
+
+.project_descriptions{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.project_descriptions_2{
+    background: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.projects_heading{
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vw;
+    padding: 2vh;
+    text-align: center;
+}
+
+.research_heading{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vw;
+    padding: 2vh;
+    text-align: center;
+}
+
+.resume{
+    text-align:left;
+}
+
+section{
+    height: 79vh;
+}
+
+.section_1{
+    border-bottom: 1px solid black; 
+}
+
+.section_2{
+    border-bottom: 1px solid black; 
+    background-color: white;
+    height: auto;
+}
+
+.section_3{
+    height: auto;
+}
+
+@media(max-width: 500px){
+
+    .contact_button{
+        background-color: rgba(7,128,128,1);
+        border-radius: 15px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2.2vw;
+        margin: auto 2.5vw;
+        padding: 0.3em 1.2em;
+    }
+
+    .menu_bar{
+        background: #f8f5f2;
+        color: darkgrey;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .nav_bar ul{
+        align-items: center;
+        display: flex;
+        font-size: 2.2vw;
+        flex-wrap: wrap;
+        margin: 2vw;
+        transition: all 0.3s ease 0s;
+    }
+
+    .phillip_logo{
+        align-items: center;
+        border: none;
+        color: #293c47;
+        cursor: pointer;
+        font-size: 5vw;
+        margin: auto auto auto 4.1vw;
+    }
+}
