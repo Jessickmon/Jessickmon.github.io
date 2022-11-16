@@ -9,177 +9,174 @@
         <title>Phillip Tran | Portfolio</title>
 
     </head>
+
+    <!-- Landing page -->
     <body>
-        
-        <section class="section_1">
-            <!-- Navigation Bar -->
-            <nav class = "nav_bar">
-
-                <!-- List of Hyperlinks  -->
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/jesse-phillip-tran/">Network</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#research">Research</a></li>
-                </ul>
-
-                <!-- Phillip Tran Logo -->
-                <a class = "phillip_logo" href="#about_phillip">
-                    <div class = "phillip_logo_text">
-                        <div class = "phillip_logo_text">
-                            Phillip
-                        </div>
-                        Tran
-                    </div>
-                </a>
-
-                <!-- Contact Button -->
-                <a href = "mailto:jqt1@rice.edu" style="margin:3vh;">
-                    <button class = "contact_button" id = "about_phillip">
-                        Contact Me 
-                    </button>
-                </a>
-            </nav>
-
-            <!-- Picture and Backframe -->
-            <div class="phillip_about">
-                <img class = "phillip_image" src="img/phillip_portfolio_picture_close_blur.png" alt="Phillip Tran ;D">
-            </div>
-
-            <!-- About Me Box -->
-            <div class="about_me">
-                Full-stack Developer / ML Researcher
-                <div class="resume">
-                    <p class="about_me_information">
-                        Howdy! My name is Jesse "Phillip" Tran, 
-                        and I am in the class of 2025, majoring in Computer
-                        Science and Mathematics with an increasing appeal 
-                        to Philosophy.
-                    </p>
-                    <p class="about_me_information">
-                        From developing web and mobile applications to 
-                        building computers and mechanical keyboards to constructing
-                        machine learning models, I love surrounding myself with 
-                        anything involving computers. Since I built my first computer
-                        at the age of thirteen, my child-like curiosity for them 
-                        stuck and grew with me. Now, equipped with a couple years of 
-                        experience in machine learning research and a blooming interest
-                        in full-stack development, I strive to explore opportunities 
-                        in both industry and academia. 
-                    </p>
+        <section> 
+            <div class="intro" id="intro">
+                <div class="intro-sub">
+                    <span class="logo">Howdy! I am </span> &nbsp 
+                    <span class="logo", style="color: #6edb6e; font-weight: 900;">Phillip</span> &nbsp 
+                    <span class="logo", style="color: #6edb6e; font-weight: 900;"> Tran</span>
+                    <span class="logo" style="display: inline_block;">.</span> <br>
+                    <span class="logo" style="padding-top: 1%; padding-bottom: 4%;">I am a Front-end Developer / Machine Learning Researcher.</span> <br>
+                    <a class="logo view-button" href="#about">Let us get started!</a>
                 </div>
             </div>
         </section>
+        
+        <!-- Navigation Bar -->
+        <header id="navbar">
+            <ul>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#projects">Projects</a></li>
+                <li><a href = "#research">Research</a></li>
+                <li><a href="https://www.linkedin.com/in/jesse-phillip-tran/" target="_blank" rel="noopener noreferrer">Network</a></li>
+            </ul>
 
-        <!-- Projects -->
-        <section class="section_2">
-            <div class="projects_heading" id="projects">
-                Projects
-                <div class = "grid">
-                    <div class="col">
-                        <p>Guess-the-song Game</p>
+            <a href = "mailto:jqt1@rice.edu" class="contact-button">Contact</a>
+        </header>
 
-                        <a href = "https://github.com/Nolan2IT/silver-dollop" >
-                            <button class = "project_button">
-                                Project here!
-                            </button>
-                        </a>
+        <!-- About Me Section -->
+        <section id="about">
+            <h1 class="sub-headings">About</h1> 
+            <div class="box">
+                <a href = "https://github.com/Jessickmon" target="_blank" rel="noopener noreferrer" class="image-link">
+                    <img src="img/Tran_Phillip_Photo.JPG" alt="Picture of Phillip Tran Smiling :D" class="image frame">
+                </a>
 
-                        <p class="project_descriptions">
-                            A song-guessing website-based game that deploys the Spotify API alongside HTML/CSS
-                            and JavaScript to pit users and their friends against each other's musical proficiency.
-                    </div>
-                    <div class="col">
-                        <p>Laundry Link</p>
+                <span class="introduction">
+                    Howdy, again! My name is <u>Jesse "Phillip" Tran</u> :D! <br><br> 
+                    I am an undergraduate student at Rice University, studying 
+                    <u>Computer Science and Mathematics</u> with an increasing 
+                    appeal to Philosophy. Whether it be building computers/mechanical 
+                    keyboards or developing machine learning models/websites, 
+                    I love surrounding myself with anything involving computers. 
+                    Now, equipped with a growing interest in <u>front-end development</u> 
+                    and a couple years of experience in <u>machine learning research</u>, 
+                    I strive to explore opportunities in both industry and academia. <br><br> 
+                    Born in Mississippi and currently homed at Texas, I love 
+                    touring the food scene, exploring nature through the mountains 
+                    or rivers, and partaking in spontaneous adventures with friends! 
+                </span>
+            </div>
 
-                        <a href = "https://github.com/Laundry-Link/Rice-Laundry-Link" >
-                            <button class = "project_button">
-                                Project here!
-                            </button>
-                        </a>
-
-                        <p class="project_descriptions">
-                            A user-input-based laundry mobile application for a residential
-                            dormitory at Rice University created via JavaScript within React Native.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p>Mask Link</p>
-
-                        <a href = "https://github.com/Jessickmon/mask-recognition-link" >
-                            <button class = "project_button">
-                                Project here!
-                            </button>
-                        </a>
-
-                        <p class="project_descriptions">
-                            A computer application that uses real-time computer vision from the OpenCV Python libary 
-                            to detect if an individual is wearing a mask.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p>Sudoku Solver</p>
-
-                        <a href = "https://github.com/Jessickmon/sudoku-solver" >
-                            <button class = "project_button">
-                                Project here!
-                            </button>
-                        </a>
-
-                        <p class="project_descriptions">
-                            A Python-exclusive program that uses backtracking algorithms to 
-                            solve a valid Sudoku puzzle. 
-                        </p>
-                    </div>
+            <div class="skills">
+                <div class="languages">
+                    <img src="img/python.png" class="technologies tech-left">
+                    <img src="img/java.png" class="technologies tech-left">
+                    <img src="img/html_5.png" class="technologies tech-left">
+                    <img src="img/css.png" class="technologies tech-right">
+                    <img src="img/javascript.png" class="technologies tech-right">
+                    <img src="img/react.png" class="technologies tech-right"> 
                 </div>
+                <div>
+                    <!-- <img src="img/tensorflow.png" class="technologies">
+                    <img src="img/scikit.png" class="technologies"> -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects -->
+        <section id="projects">
+            <h1 class="sub-headings">Projects</h1>
+
+            <div class="box-projects">
+                <a href = "https://github.com/Laundry-Link/Rice-Laundry-Link" target="_blank" rel="noopener noreferrer" class="image-link">
+                    <img src="img/laundry_link_no_background.png" alt="Laundry Link Project" class="image frame-projects" style="margin-left:50%">
+                </a>
+
+                <span class="introduction-projects">
+                    <strong style="font-size: 150%;">Laundry Link</strong> <br><br> Lifestyle/Productivity Mobile App <br><br>
+
+                    A mobile application built with the <u>React Native</u> framework alongside <u>JavaScript</u>
+                    and <u>Xcode</u> for the front-end and <u>Firebase</u> for the back-end to 
+                    track the availability of washers and dryers for a residential dormitory of over 400 students. <br><br><br>
+
+                    <a href = "https://github.com/Laundry-Link/Rice-Laundry-Link" target="_blank" rel="noopener noreferrer" class = "learn-more">
+                        View the project!
+                    </a>
+                </span>
+            </div>
+        </section>
+
+        <section>
+            <div class="box-projects-2">
+
+                <span class="introduction-projects-2">
+                    <strong style="font-size: 150%;">Mask Link</strong> <br><br>Computer Application for Safety <br><br>
+
+                    A computer application developed from utilizing <u>real-time computer vision</u> from the
+                    <u>OpenCV</u> library alongside <u>Python3</u> to detect if an individual is wearing
+                    a mask.<br><br><br>
+
+                    <a href = "https://github.com/Jessickmon/mask-recognition-link" target="_blank" rel="noopener noreferrer" class = "learn-more">
+                        View the project!
+                    </a>
+                </span>
+
+                <a href = "https://github.com/Jessickmon/mask-recognition-link" target="_blank" rel="noopener noreferrer" class="image-link-2">
+                    <img src="img/mask_link_masked.png" alt="Mask Link Project" class="image-2 frame-projects-2" ><br>
+                    <img src="img/mask_link_unmasked.png" alt="Mask Link Project" class="image-2 frame-projects-2" >
+                </a>
             </div>
         </section>
 
         <!-- Research -->
-        <section class="section_3">
-            <div class="research_heading" id = "research">
-                Research
-                <div class = "grid_2">
-                    <div class="col_2">
-                        <p style = "background: white;"> 
-                            History as a data science:
-                            Missing data imputation on the the slave voyages 
-                            dataset
-                        </p>
+        <section id="research">
+            <h1 class="sub-headings">Research</h1>
 
-                        <a href = "https://github.com/Jessickmon/slaves-voyages-research" style = "background: white;" >
-                            <button class = "project_button_2">
-                                Project here!
-                            </button>
-                        </a>
+            <div class="box-projects-research">
+                <a href = "https://www.kdd.org/kdd2022/papers/18_Jesse%20Q%20Tran.pdf" target="_blank" rel="noopener noreferrer" class="image-link">
+                    <img src="img/slave_research-1.png" alt="Slave Voyages Research Paper" class="image-research frame-research">
+                </a>
 
-                        <p class="project_descriptions_2">
-                            A case study conducted on the world's largest forced 
-                            slave relocation database; specifically, the viability of univariate
-                            and multivariate data imputation by exploiting correlations 
-                            and missingness similarities from pre-existing data.
-                            
-                    </div>
-                    <div class="col_2">
-                        <p style = "background: white;">
-                            Predicting the North Atlantic Oscillation (NAO) Index Using 
-                            Machine Learning Algorithms 
-                        </p>
+                <span class="introduction-research">
+                    <strong style="font-size: 150%;">History as a data science:<br>
+                     Missing data imputation on the the slave voyages dataset</strong> <br><br>
+                     Machine Learning Research <br><br>
 
-                        <a href = "" style = "background: white;" >
-                            <button class = "project_button_unavailable">
-                                Unavailable
-                            </button>
-                        </a>
+                    A case study on the world's largest database of forced slave relocations explored with the aid of 
+                    machine learning libraries such as <u>Scitkit-learn</u>, <u>Pandas</u>, <u>Numpy</u>, and 
+                    <u>Matplotlib</u> employed alongside <u>Python</u> and <u>SQL</u>. This research project
+                    aimed to impute missing data using univariate and multivariate techniques, exploiting 
+                    correlations between the attributes and Jaccard similarities of voyages.<br><br><br>
 
-                        <p class="project_descriptions_2">
-                            An independent research project that constructs a machine learning pipeline
-                            to predict the NAO index through Autoregressive and Autoregressive
-                            Integrated Moving Average models. 
-                        </p>
-                    </div>
-                </div>
-
+                    <a href = "https://github.com/Jessickmon/slaves-voyages-research" target="_blank" rel="noopener noreferrer" class = "learn-more">
+                        View the project!
+                    </a>
+                </span>
             </div>
         </section>
+
+        <section style="height: 60vh;">
+            <div class="box-projects-2">
+
+                <span class="introduction-projects-2" style="margin-top: 0%;">
+                    <strong style="font-size: 150%;">Predicting the North Atlantic Oscillation Index <br>
+                        Using Machine Learning Algorithms</strong> <br><br>Independent Machine Learning Project<br><br>
+                    
+                    A dual-modeled machine learning approach focused on predicting the North Atlantic Oscillation (NAO) Index
+                    by deploying libaries such as <u>TensorFlow</u>, <u>Pandas</u>, and <u>Matplotlib</u> alongside
+                    National Oceanic and Atmospheric Administration's database on monthly NAO indices
+                    since January 1950 to construct autoregressive integrated moving average and autoregressive models<br><br><br>
+
+                    <a href = "https://www.outreach.olemiss.edu/academic_competitions/msef_reg7_upperfair_awards.html" target="_blank" rel="noopener noreferrer" class = "learn-more">
+                        View the results!
+                    </a>
+                </span>
+
+                <!-- <a href = "https://github.com/Jessickmon/mask-recognition-link" target="_blank" rel="noopener noreferrer" class="image-link-2">
+                    <img src="img/nao_index.png" alt="North Atlantic Oscillation Index Graph from 
+                    https://www.eea.europa.eu/data-and-maps/figures/mean-winter-december-march-nao-index-1864-2007/figure-5-1-climate-change-2008-mean-winter-nao-index.eps" 
+                    class="image-2 frame-projects-2" >
+                </a> -->
+            </div>
+
+        </section>
+
+        <a href="#intro" class="back-to-top-buttom">Back to the top!</a>
+
+        <script src="app.js"></script>
     </body>
 </html>
